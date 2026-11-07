@@ -1,0 +1,2 @@
+/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/edit_cache.dir
+/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/rebuild_cache.dir

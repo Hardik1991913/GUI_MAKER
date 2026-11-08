@@ -1,0 +1,12 @@
+#ifndef ERROR_H
+#define ERROR_H
+
+typedef enum {
+    GUI_SUCCESS,
+    GUI_POINTER_NULL_ERROR,
+    GUI_OUT_OF_MEMORY,
+    GUI_INVALID_DIMENSIONS,
+    GUI_OVERFLOW_ERROR
+} GuiError;
+
+#endif

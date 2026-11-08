@@ -63,11 +63,13 @@ CMAKE_BINARY_DIR = /home/human/Downloads/Project/GUI_MAKER/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/mygui.dir/all
+all: CMakeFiles/test_framebuffer.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen:
+codegen: CMakeFiles/mygui.dir/codegen
+codegen: CMakeFiles/test_framebuffer.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,8 +77,73 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/mygui.dir/clean
+clean: CMakeFiles/test_framebuffer.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mygui.dir
+
+# All Build rule for target.
+CMakeFiles/mygui.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mygui"
+.PHONY : CMakeFiles/mygui.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mygui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mygui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 0
+.PHONY : CMakeFiles/mygui.dir/rule
+
+# Convenience name for target.
+mygui: CMakeFiles/mygui.dir/rule
+.PHONY : mygui
+
+# codegen rule for target.
+CMakeFiles/mygui.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target mygui"
+.PHONY : CMakeFiles/mygui.dir/codegen
+
+# clean rule for target.
+CMakeFiles/mygui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/clean
+.PHONY : CMakeFiles/mygui.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_framebuffer.dir
+
+# All Build rule for target.
+CMakeFiles/test_framebuffer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target test_framebuffer"
+.PHONY : CMakeFiles/test_framebuffer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_framebuffer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_framebuffer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_framebuffer.dir/rule
+
+# Convenience name for target.
+test_framebuffer: CMakeFiles/test_framebuffer.dir/rule
+.PHONY : test_framebuffer
+
+# codegen rule for target.
+CMakeFiles/test_framebuffer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=6,7,8,9,10 "Finished codegen for target test_framebuffer"
+.PHONY : CMakeFiles/test_framebuffer.dir/codegen
+
+# clean rule for target.
+CMakeFiles/test_framebuffer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/clean
+.PHONY : CMakeFiles/test_framebuffer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

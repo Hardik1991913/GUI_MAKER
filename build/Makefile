@@ -116,6 +116,161 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named mygui
+
+# Build rule for target.
+mygui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mygui
+.PHONY : mygui
+
+# fast build rule for target.
+mygui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/build
+.PHONY : mygui/fast
+
+#=============================================================================
+# Target rules for targets named test_framebuffer
+
+# Build rule for target.
+test_framebuffer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_framebuffer
+.PHONY : test_framebuffer
+
+# fast build rule for target.
+test_framebuffer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/build
+.PHONY : test_framebuffer/fast
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/main.c.s
+.PHONY : main.c.s
+
+src/core/error.o: src/core/error.c.o
+.PHONY : src/core/error.o
+
+# target to build an object file
+src/core/error.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.o
+.PHONY : src/core/error.c.o
+
+src/core/error.i: src/core/error.c.i
+.PHONY : src/core/error.i
+
+# target to preprocess a source file
+src/core/error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.i
+.PHONY : src/core/error.c.i
+
+src/core/error.s: src/core/error.c.s
+.PHONY : src/core/error.s
+
+# target to generate assembly for a file
+src/core/error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.s
+.PHONY : src/core/error.c.s
+
+src/graphics/framebuffer.o: src/graphics/framebuffer.c.o
+.PHONY : src/graphics/framebuffer.o
+
+# target to build an object file
+src/graphics/framebuffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.o
+.PHONY : src/graphics/framebuffer.c.o
+
+src/graphics/framebuffer.i: src/graphics/framebuffer.c.i
+.PHONY : src/graphics/framebuffer.i
+
+# target to preprocess a source file
+src/graphics/framebuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.i
+.PHONY : src/graphics/framebuffer.c.i
+
+src/graphics/framebuffer.s: src/graphics/framebuffer.c.s
+.PHONY : src/graphics/framebuffer.s
+
+# target to generate assembly for a file
+src/graphics/framebuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.s
+.PHONY : src/graphics/framebuffer.c.s
+
+src/graphics/pixel.o: src/graphics/pixel.c.o
+.PHONY : src/graphics/pixel.o
+
+# target to build an object file
+src/graphics/pixel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.o
+.PHONY : src/graphics/pixel.c.o
+
+src/graphics/pixel.i: src/graphics/pixel.c.i
+.PHONY : src/graphics/pixel.i
+
+# target to preprocess a source file
+src/graphics/pixel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.i
+.PHONY : src/graphics/pixel.c.i
+
+src/graphics/pixel.s: src/graphics/pixel.c.s
+.PHONY : src/graphics/pixel.s
+
+# target to generate assembly for a file
+src/graphics/pixel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.s
+.PHONY : src/graphics/pixel.c.s
+
+tests/test_framebuffer.o: tests/test_framebuffer.c.o
+.PHONY : tests/test_framebuffer.o
+
+# target to build an object file
+tests/test_framebuffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.o
+.PHONY : tests/test_framebuffer.c.o
+
+tests/test_framebuffer.i: tests/test_framebuffer.c.i
+.PHONY : tests/test_framebuffer.i
+
+# target to preprocess a source file
+tests/test_framebuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.i
+.PHONY : tests/test_framebuffer.c.i
+
+tests/test_framebuffer.s: tests/test_framebuffer.c.s
+.PHONY : tests/test_framebuffer.s
+
+# target to generate assembly for a file
+tests/test_framebuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.s
+.PHONY : tests/test_framebuffer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +279,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mygui"
+	@echo "... test_framebuffer"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src/core/error.o"
+	@echo "... src/core/error.i"
+	@echo "... src/core/error.s"
+	@echo "... src/graphics/framebuffer.o"
+	@echo "... src/graphics/framebuffer.i"
+	@echo "... src/graphics/framebuffer.s"
+	@echo "... src/graphics/pixel.o"
+	@echo "... src/graphics/pixel.i"
+	@echo "... src/graphics/pixel.s"
+	@echo "... tests/test_framebuffer.o"
+	@echo "... tests/test_framebuffer.i"
+	@echo "... tests/test_framebuffer.s"
 .PHONY : help
 
 

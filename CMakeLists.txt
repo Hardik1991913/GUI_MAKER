@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.16)
 
 project(GUI_MAKER C)
@@ -22,6 +23,12 @@ add_executable(test_framebuffer
 )
 
 # Header directories
-target_include_directories(mygui PRIVATE include src)
+target_include_directories(mygui PRIVATE
+    include
+    src
+)
 
-target_include_directories(test_framebuffer PRIVATE include src)
+target_include_directories(test_framebuffer PRIVATE
+    include
+    src
+)

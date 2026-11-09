@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /home/human/Downloads/Project/GUI_MAKER/build
 all: CMakeFiles/mygui.dir/all
 all: CMakeFiles/test_framebuffer.dir/all
 all: CMakeFiles/test_pixel.dir/all
+all: CMakeFiles/test_line.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/mygui.dir/codegen
 codegen: CMakeFiles/test_framebuffer.dir/codegen
 codegen: CMakeFiles/test_pixel.dir/codegen
+codegen: CMakeFiles/test_line.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,7 @@ preinstall:
 clean: CMakeFiles/mygui.dir/clean
 clean: CMakeFiles/test_framebuffer.dir/clean
 clean: CMakeFiles/test_pixel.dir/clean
+clean: CMakeFiles/test_line.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -155,7 +158,7 @@ CMakeFiles/test_framebuffer.dir/clean:
 CMakeFiles/test_pixel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=11,12,13,14,15 "Built target test_pixel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=17,18,19,20,21 "Built target test_pixel"
 .PHONY : CMakeFiles/test_pixel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,13 +175,45 @@ test_pixel: CMakeFiles/test_pixel.dir/rule
 # codegen rule for target.
 CMakeFiles/test_pixel.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target test_pixel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=17,18,19,20,21 "Finished codegen for target test_pixel"
 .PHONY : CMakeFiles/test_pixel.dir/codegen
 
 # clean rule for target.
 CMakeFiles/test_pixel.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/clean
 .PHONY : CMakeFiles/test_pixel.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_line.dir
+
+# All Build rule for target.
+CMakeFiles/test_line.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=11,12,13,14,15,16 "Built target test_line"
+.PHONY : CMakeFiles/test_line.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_line.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_line.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_line.dir/rule
+
+# Convenience name for target.
+test_line: CMakeFiles/test_line.dir/rule
+.PHONY : test_line
+
+# codegen rule for target.
+CMakeFiles/test_line.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=11,12,13,14,15,16 "Finished codegen for target test_line"
+.PHONY : CMakeFiles/test_line.dir/codegen
+
+# clean rule for target.
+CMakeFiles/test_line.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/clean
+.PHONY : CMakeFiles/test_line.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

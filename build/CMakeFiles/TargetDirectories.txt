@@ -1,5 +1,6 @@
 /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/mygui.dir
 /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/test_framebuffer.dir
 /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/test_pixel.dir
+/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/test_line.dir
 /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/edit_cache.dir
 /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles/rebuild_cache.dir

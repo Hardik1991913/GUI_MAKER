@@ -23,12 +23,21 @@ add_executable(test_framebuffer
     src/graphics/pixel.c
 )
 
-# Framebuffer test
+# Pixel test
 add_executable(test_pixel
     tests/test_pixel.c
     src/core/error.c
     src/graphics/framebuffer.c
     src/graphics/pixel.c
+)
+
+# Pixel test
+add_executable(test_line
+    tests/test_line.c
+    src/core/error.c
+    src/graphics/framebuffer.c
+    src/graphics/pixel.c
+    src/graphics/line.c
 )
 
 # Header directories
@@ -43,6 +52,11 @@ target_include_directories(test_framebuffer PRIVATE
 )
 
 target_include_directories(test_pixel PRIVATE
+    include
+    src
+)
+
+target_include_directories(test_line PRIVATE
     include
     src
 )

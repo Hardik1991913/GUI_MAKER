@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdint.h>
-#include "core/error.h"
+#include "mygui/error.h"
 #include "mygui/framebuffer.h"
 
 GuiError framebuffer_create(int width, int height, FrameBuffer** out_fb)

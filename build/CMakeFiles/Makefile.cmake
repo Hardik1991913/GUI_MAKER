@@ -49,5 +49,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mygui.dir/DependInfo.cmake"
   "CMakeFiles/test_framebuffer.dir/DependInfo.cmake"
-  "CMakeFiles/test_pixel.dir/DependInfo.cmake"
   )

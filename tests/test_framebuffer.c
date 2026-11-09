@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<stdint.h>
-#include "core/error.h"
+#include "mygui/error.h"
 #include "mygui/framebuffer.h"
 
 int main()

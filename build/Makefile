@@ -142,19 +142,6 @@ test_framebuffer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/build
 .PHONY : test_framebuffer/fast
 
-#=============================================================================
-# Target rules for targets named test_pixel
-
-# Build rule for target.
-test_pixel: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_pixel
-.PHONY : test_pixel
-
-# fast build rule for target.
-test_pixel/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/build
-.PHONY : test_pixel/fast
-
 main.o: main.c.o
 .PHONY : main.o
 
@@ -186,7 +173,6 @@ src/core/error.o: src/core/error.c.o
 src/core/error.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.o
 .PHONY : src/core/error.c.o
 
 src/core/error.i: src/core/error.c.i
@@ -196,7 +182,6 @@ src/core/error.i: src/core/error.c.i
 src/core/error.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.i
 .PHONY : src/core/error.c.i
 
 src/core/error.s: src/core/error.c.s
@@ -206,7 +191,6 @@ src/core/error.s: src/core/error.c.s
 src/core/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/core/error.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.s
 .PHONY : src/core/error.c.s
 
 src/graphics/framebuffer.o: src/graphics/framebuffer.c.o
@@ -216,7 +200,6 @@ src/graphics/framebuffer.o: src/graphics/framebuffer.c.o
 src/graphics/framebuffer.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.o
 .PHONY : src/graphics/framebuffer.c.o
 
 src/graphics/framebuffer.i: src/graphics/framebuffer.c.i
@@ -226,7 +209,6 @@ src/graphics/framebuffer.i: src/graphics/framebuffer.c.i
 src/graphics/framebuffer.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.i
 .PHONY : src/graphics/framebuffer.c.i
 
 src/graphics/framebuffer.s: src/graphics/framebuffer.c.s
@@ -236,7 +218,6 @@ src/graphics/framebuffer.s: src/graphics/framebuffer.c.s
 src/graphics/framebuffer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/framebuffer.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.s
 .PHONY : src/graphics/framebuffer.c.s
 
 src/graphics/pixel.o: src/graphics/pixel.c.o
@@ -246,7 +227,6 @@ src/graphics/pixel.o: src/graphics/pixel.c.o
 src/graphics/pixel.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.o
 .PHONY : src/graphics/pixel.c.o
 
 src/graphics/pixel.i: src/graphics/pixel.c.i
@@ -256,7 +236,6 @@ src/graphics/pixel.i: src/graphics/pixel.c.i
 src/graphics/pixel.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.i
 .PHONY : src/graphics/pixel.c.i
 
 src/graphics/pixel.s: src/graphics/pixel.c.s
@@ -266,7 +245,6 @@ src/graphics/pixel.s: src/graphics/pixel.c.s
 src/graphics/pixel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mygui.dir/build.make CMakeFiles/mygui.dir/src/graphics/pixel.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.s
 .PHONY : src/graphics/pixel.c.s
 
 tests/test_framebuffer.o: tests/test_framebuffer.c.o
@@ -274,7 +252,7 @@ tests/test_framebuffer.o: tests/test_framebuffer.c.o
 
 # target to build an object file
 tests/test_framebuffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/tests/test_framebuffer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.o
 .PHONY : tests/test_framebuffer.c.o
 
 tests/test_framebuffer.i: tests/test_framebuffer.c.i
@@ -282,7 +260,7 @@ tests/test_framebuffer.i: tests/test_framebuffer.c.i
 
 # target to preprocess a source file
 tests/test_framebuffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/tests/test_framebuffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.i
 .PHONY : tests/test_framebuffer.c.i
 
 tests/test_framebuffer.s: tests/test_framebuffer.c.s
@@ -290,32 +268,8 @@ tests/test_framebuffer.s: tests/test_framebuffer.c.s
 
 # target to generate assembly for a file
 tests/test_framebuffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/tests/test_framebuffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_framebuffer.c.s
 .PHONY : tests/test_framebuffer.c.s
-
-tests/test_pixel.o: tests/test_pixel.c.o
-.PHONY : tests/test_pixel.o
-
-# target to build an object file
-tests/test_pixel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_pixel.c.o
-.PHONY : tests/test_pixel.c.o
-
-tests/test_pixel.i: tests/test_pixel.c.i
-.PHONY : tests/test_pixel.i
-
-# target to preprocess a source file
-tests/test_pixel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_pixel.c.i
-.PHONY : tests/test_pixel.c.i
-
-tests/test_pixel.s: tests/test_pixel.c.s
-.PHONY : tests/test_pixel.s
-
-# target to generate assembly for a file
-tests/test_pixel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/tests/test_pixel.c.s
-.PHONY : tests/test_pixel.c.s
 
 # Help Target
 help:
@@ -327,7 +281,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... mygui"
 	@echo "... test_framebuffer"
-	@echo "... test_pixel"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -343,9 +296,6 @@ help:
 	@echo "... tests/test_framebuffer.o"
 	@echo "... tests/test_framebuffer.i"
 	@echo "... tests/test_framebuffer.s"
-	@echo "... tests/test_pixel.o"
-	@echo "... tests/test_pixel.i"
-	@echo "... tests/test_pixel.s"
 .PHONY : help
 
 

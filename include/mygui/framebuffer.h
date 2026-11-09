@@ -1,5 +1,5 @@
 #include<stdint.h>
-#include "core/error.h"
+#include "mygui/error.h"
 #ifndef FRAMEBUFFER_H
 #define FRAMEBUFFER_H
 

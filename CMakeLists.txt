@@ -31,7 +31,7 @@ add_executable(test_pixel
     src/graphics/pixel.c
 )
 
-# Pixel test
+# line test
 add_executable(test_line
     tests/test_line.c
     src/core/error.c
@@ -39,6 +39,16 @@ add_executable(test_line
     src/graphics/pixel.c
     src/graphics/line.c
 )
+
+add_executable(test_quadilateral
+    tests/test_quadilateral.c
+    src/core/error.c
+    src/graphics/framebuffer.c
+    src/graphics/pixel.c
+    src/graphics/line.c
+    src/graphics/quadrilateral.c
+)
+
 
 # Header directories
 target_include_directories(mygui PRIVATE
@@ -59,4 +69,10 @@ target_include_directories(test_pixel PRIVATE
 target_include_directories(test_line PRIVATE
     include
     src
+)
+
+
+target_include_directories(test_quadilateral PRIVATE 
+    include
+    src    
 )

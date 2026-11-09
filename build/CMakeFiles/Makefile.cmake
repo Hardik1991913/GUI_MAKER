@@ -51,4 +51,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_framebuffer.dir/DependInfo.cmake"
   "CMakeFiles/test_pixel.dir/DependInfo.cmake"
   "CMakeFiles/test_line.dir/DependInfo.cmake"
+  "CMakeFiles/test_quadilateral.dir/DependInfo.cmake"
   )

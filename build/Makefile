@@ -168,6 +168,19 @@ test_line/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/build
 .PHONY : test_line/fast
 
+#=============================================================================
+# Target rules for targets named test_quadilateral
+
+# Build rule for target.
+test_quadilateral: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_quadilateral
+.PHONY : test_quadilateral
+
+# fast build rule for target.
+test_quadilateral/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/build
+.PHONY : test_quadilateral/fast
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -201,6 +214,7 @@ src/core/error.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/core/error.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/core/error.c.o
 .PHONY : src/core/error.c.o
 
 src/core/error.i: src/core/error.c.i
@@ -212,6 +226,7 @@ src/core/error.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/core/error.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/core/error.c.i
 .PHONY : src/core/error.c.i
 
 src/core/error.s: src/core/error.c.s
@@ -223,6 +238,7 @@ src/core/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/core/error.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/core/error.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/core/error.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/core/error.c.s
 .PHONY : src/core/error.c.s
 
 src/graphics/framebuffer.o: src/graphics/framebuffer.c.o
@@ -234,6 +250,7 @@ src/graphics/framebuffer.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/framebuffer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/framebuffer.c.o
 .PHONY : src/graphics/framebuffer.c.o
 
 src/graphics/framebuffer.i: src/graphics/framebuffer.c.i
@@ -245,6 +262,7 @@ src/graphics/framebuffer.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/framebuffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/framebuffer.c.i
 .PHONY : src/graphics/framebuffer.c.i
 
 src/graphics/framebuffer.s: src/graphics/framebuffer.c.s
@@ -256,6 +274,7 @@ src/graphics/framebuffer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/framebuffer.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/framebuffer.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/framebuffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/framebuffer.c.s
 .PHONY : src/graphics/framebuffer.c.s
 
 src/graphics/line.o: src/graphics/line.c.o
@@ -264,6 +283,7 @@ src/graphics/line.o: src/graphics/line.c.o
 # target to build an object file
 src/graphics/line.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/line.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/line.c.o
 .PHONY : src/graphics/line.c.o
 
 src/graphics/line.i: src/graphics/line.c.i
@@ -272,6 +292,7 @@ src/graphics/line.i: src/graphics/line.c.i
 # target to preprocess a source file
 src/graphics/line.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/line.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/line.c.i
 .PHONY : src/graphics/line.c.i
 
 src/graphics/line.s: src/graphics/line.c.s
@@ -280,6 +301,7 @@ src/graphics/line.s: src/graphics/line.c.s
 # target to generate assembly for a file
 src/graphics/line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/line.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/line.c.s
 .PHONY : src/graphics/line.c.s
 
 src/graphics/pixel.o: src/graphics/pixel.c.o
@@ -291,6 +313,7 @@ src/graphics/pixel.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/pixel.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/pixel.c.o
 .PHONY : src/graphics/pixel.c.o
 
 src/graphics/pixel.i: src/graphics/pixel.c.i
@@ -302,6 +325,7 @@ src/graphics/pixel.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/pixel.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/pixel.c.i
 .PHONY : src/graphics/pixel.c.i
 
 src/graphics/pixel.s: src/graphics/pixel.c.s
@@ -313,7 +337,32 @@ src/graphics/pixel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_framebuffer.dir/build.make CMakeFiles/test_framebuffer.dir/src/graphics/pixel.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/src/graphics/pixel.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/src/graphics/pixel.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/pixel.c.s
 .PHONY : src/graphics/pixel.c.s
+
+src/graphics/quadrilateral.o: src/graphics/quadrilateral.c.o
+.PHONY : src/graphics/quadrilateral.o
+
+# target to build an object file
+src/graphics/quadrilateral.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/quadrilateral.c.o
+.PHONY : src/graphics/quadrilateral.c.o
+
+src/graphics/quadrilateral.i: src/graphics/quadrilateral.c.i
+.PHONY : src/graphics/quadrilateral.i
+
+# target to preprocess a source file
+src/graphics/quadrilateral.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/quadrilateral.c.i
+.PHONY : src/graphics/quadrilateral.c.i
+
+src/graphics/quadrilateral.s: src/graphics/quadrilateral.c.s
+.PHONY : src/graphics/quadrilateral.s
+
+# target to generate assembly for a file
+src/graphics/quadrilateral.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/src/graphics/quadrilateral.c.s
+.PHONY : src/graphics/quadrilateral.c.s
 
 tests/test_framebuffer.o: tests/test_framebuffer.c.o
 .PHONY : tests/test_framebuffer.o
@@ -387,6 +436,30 @@ tests/test_pixel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pixel.dir/build.make CMakeFiles/test_pixel.dir/tests/test_pixel.c.s
 .PHONY : tests/test_pixel.c.s
 
+tests/test_quadilateral.o: tests/test_quadilateral.c.o
+.PHONY : tests/test_quadilateral.o
+
+# target to build an object file
+tests/test_quadilateral.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/tests/test_quadilateral.c.o
+.PHONY : tests/test_quadilateral.c.o
+
+tests/test_quadilateral.i: tests/test_quadilateral.c.i
+.PHONY : tests/test_quadilateral.i
+
+# target to preprocess a source file
+tests/test_quadilateral.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/tests/test_quadilateral.c.i
+.PHONY : tests/test_quadilateral.c.i
+
+tests/test_quadilateral.s: tests/test_quadilateral.c.s
+.PHONY : tests/test_quadilateral.s
+
+# target to generate assembly for a file
+tests/test_quadilateral.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/tests/test_quadilateral.c.s
+.PHONY : tests/test_quadilateral.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -399,6 +472,7 @@ help:
 	@echo "... test_framebuffer"
 	@echo "... test_line"
 	@echo "... test_pixel"
+	@echo "... test_quadilateral"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -414,6 +488,9 @@ help:
 	@echo "... src/graphics/pixel.o"
 	@echo "... src/graphics/pixel.i"
 	@echo "... src/graphics/pixel.s"
+	@echo "... src/graphics/quadrilateral.o"
+	@echo "... src/graphics/quadrilateral.i"
+	@echo "... src/graphics/quadrilateral.s"
 	@echo "... tests/test_framebuffer.o"
 	@echo "... tests/test_framebuffer.i"
 	@echo "... tests/test_framebuffer.s"
@@ -423,6 +500,9 @@ help:
 	@echo "... tests/test_pixel.o"
 	@echo "... tests/test_pixel.i"
 	@echo "... tests/test_pixel.s"
+	@echo "... tests/test_quadilateral.o"
+	@echo "... tests/test_quadilateral.i"
+	@echo "... tests/test_quadilateral.s"
 .PHONY : help
 
 

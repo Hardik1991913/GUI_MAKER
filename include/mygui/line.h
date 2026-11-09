@@ -5,6 +5,6 @@
 #include "mygui/framebuffer.h"
 #include "mygui/pixel.h"
 
-GuiError draw_line(FrameBuffer*, int, int, int, int, Pixel);
+GuiError draw_line(FrameBuffer* fb, int x1, int y1, int x2, int y2, Pixel);
 
 #endif

@@ -67,6 +67,7 @@ all: CMakeFiles/mygui.dir/all
 all: CMakeFiles/test_framebuffer.dir/all
 all: CMakeFiles/test_pixel.dir/all
 all: CMakeFiles/test_line.dir/all
+all: CMakeFiles/test_quadilateral.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,6 +75,7 @@ codegen: CMakeFiles/mygui.dir/codegen
 codegen: CMakeFiles/test_framebuffer.dir/codegen
 codegen: CMakeFiles/test_pixel.dir/codegen
 codegen: CMakeFiles/test_line.dir/codegen
+codegen: CMakeFiles/test_quadilateral.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -85,6 +87,7 @@ clean: CMakeFiles/mygui.dir/clean
 clean: CMakeFiles/test_framebuffer.dir/clean
 clean: CMakeFiles/test_pixel.dir/clean
 clean: CMakeFiles/test_line.dir/clean
+clean: CMakeFiles/test_quadilateral.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -214,6 +217,38 @@ CMakeFiles/test_line.dir/codegen:
 CMakeFiles/test_line.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_line.dir/build.make CMakeFiles/test_line.dir/clean
 .PHONY : CMakeFiles/test_line.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_quadilateral.dir
+
+# All Build rule for target.
+CMakeFiles/test_quadilateral.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target test_quadilateral"
+.PHONY : CMakeFiles/test_quadilateral.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_quadilateral.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_quadilateral.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_quadilateral.dir/rule
+
+# Convenience name for target.
+test_quadilateral: CMakeFiles/test_quadilateral.dir/rule
+.PHONY : test_quadilateral
+
+# codegen rule for target.
+CMakeFiles/test_quadilateral.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/human/Downloads/Project/GUI_MAKER/build/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Finished codegen for target test_quadilateral"
+.PHONY : CMakeFiles/test_quadilateral.dir/codegen
+
+# clean rule for target.
+CMakeFiles/test_quadilateral.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quadilateral.dir/build.make CMakeFiles/test_quadilateral.dir/clean
+.PHONY : CMakeFiles/test_quadilateral.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

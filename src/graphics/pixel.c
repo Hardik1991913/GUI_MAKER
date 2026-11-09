@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include "mygui/framebuffer.h"
 #include "mygui/pixel.h"
-#include "core/error.h"
+#include "mygui/error.h"
 
 GuiError pixel_set(FrameBuffer* fb, int x, int y, Pixel apixel)
 {

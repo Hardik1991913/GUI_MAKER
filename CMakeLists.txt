@@ -1,4 +1,3 @@
-
 cmake_minimum_required(VERSION 3.16)
 
 project(GUI_MAKER C)
@@ -16,6 +15,14 @@ add_executable(mygui
 
 # Framebuffer test
 add_executable(test_framebuffer
+    tests/test_pixel.c
+    src/core/error.c
+    src/graphics/framebuffer.c
+    src/graphics/pixel.c
+)
+
+# Pixel test
+add_executable(test_pixel
     tests/test_framebuffer.c
     src/core/error.c
     src/graphics/framebuffer.c
@@ -29,6 +36,11 @@ target_include_directories(mygui PRIVATE
 )
 
 target_include_directories(test_framebuffer PRIVATE
+    include
+    src
+)
+
+target_include_directories(test_pixel PRIVATE
     include
     src
 )
